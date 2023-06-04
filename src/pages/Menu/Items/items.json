@@ -1,7 +1,7 @@
 [
     {
         "title": "Macarrão mediterrâneo",
-        "description": "Macarrão spaghetti com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+        "description": "Macarrão spaghetti com frutos-do-mar e especiarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
         "photo": "/assets/dishes/macarrao_mediterraneo.png",
         "size": 400,
         "serving": 2,
@@ -14,7 +14,7 @@
     },
     {
         "title": "Macarrão da casa",
-        "description": "Macarrão com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+        "description": "Tradicional receita do restaurante, que é preparada há mais de 40 anos. Leva a assinatura do nosso renomado Chef.",
         "photo": "/assets/dishes/macarrao_da_casa.png",
         "size": 400,
         "serving": 2,
@@ -27,7 +27,7 @@
     },
     {
         "title": "Macarrão com chilli",
-        "description": "Macarrão fetuccine com molho de chilli e especiárias.",
+        "description": "Macarrão fetuccine com molho de chilli e especiarias.",
         "photo": "/assets/dishes/macarrao_com_chilli.png",
         "size": 350,
         "serving": 1,
@@ -53,7 +53,7 @@
     },
     {
         "title": "Bife com batatas",
-        "description": "Bife de boi (150g) na chapa, com batatas fritas. Acompanha arroz e molhos.",
+        "description": "Bife bovino (150g) preparado na chapa, com batatas fritas. Acompanha arroz e molhos.",
         "photo": "/assets/dishes/bife_com_batatas.png",
         "size": 550,
         "serving": 2,
@@ -79,7 +79,7 @@
     },
     {
         "title": "Lasagna vegana (carne de soja)",
-        "description": "Lasagna 100% vegana feita com carne de soja e massa especial.",
+        "description": "Lasagna 100% vegana, feita com carne de soja e massa especial.",
         "photo": "/assets/dishes/lasagna_vegana.png",
         "size": 350,
         "serving": 1,
@@ -92,7 +92,7 @@
     },
     {
         "title": "Salada especial",
-        "description": "Salada com abacate, manga, alface, grão de bico e muito mais.",
+        "description": "Salada com abacate, manga, alface, grão de bico e especiarias.",
         "photo": "/assets/dishes/salada_especial.png",
         "size": 350,
         "serving": 1,
@@ -105,7 +105,7 @@
     },
     {
         "title": "Almôndegas",
-        "description": "Porção de almôndegas com sour cream, cebola e tempêros. Acompanha arroz ou massa.",
+        "description": "Porção de almôndegas com sour cream, cebola e temperos. Acompanha arroz ou massa.",
         "photo": "/assets/dishes/almondegas.png",
         "size": 740,
         "serving": 3,
