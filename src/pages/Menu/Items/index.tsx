@@ -22,14 +22,21 @@ export default function Items({ search, filter, sorter }: Props) {
         return true;
     }
 
+    function orderPropAsc(
+        list: typeof menu,
+        prop: "size" | "serving" | "price"
+    ) {
+        return list.sort((a, b) => (a[prop] > b[prop] ? 1 : -1));
+    }
+
     function sort(list: typeof menu) {
         switch (sorter) {
             case "porcao":
-                return list.sort((a, b) => (a.size > b.size ? 1 : -1));
+                return orderPropAsc(list, "size");
             case "qtd_pessoas":
-                return list.sort((a, b) => (a.serving > b.serving ? 1 : -1));
+                return orderPropAsc(list, "serving");
             case "preco":
-                return list.sort((a, b) => (a.price > b.price ? 1 : -1));
+                return orderPropAsc(list, "price");
             default:
                 return list;
         }

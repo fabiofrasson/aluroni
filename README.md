@@ -57,6 +57,6 @@ Este projeto foi desenvolvido seguindo o curso "[**React: lidando com arquivos e
 8. Abra o navegador e digite a URL `http://localhost:3000/` na barra de endereço.
 
 ## Versão publicada da aplicação
-Caso prefira ver a versão publicada da aplicação diretamente, basta clicar [aqui](https://fabiofrasson.github.io/aluroni/) ou colar a URL https://fabiofrasson.github.io/aluroni/ na barra de endereço de seu navegador de preferência.
+Caso prefira ver diretamente a versão publicada da aplicação, basta clicar [aqui](https://fabiofrasson.github.io/aluroni/) ou acessar a URL https://fabiofrasson.github.io/aluroni/.
 
 
