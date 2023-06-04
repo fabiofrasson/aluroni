@@ -27,7 +27,7 @@ export default function Menu() {
                     <Filters filter={filter} setFilter={setFilter} />
                     <Sorter sorter={sorter} setSorter={setSorter} />
                 </div>
-                <Items />
+                <Items search={search} filter={filter} sorter={sorter} />
             </section>
         </main>
     );
