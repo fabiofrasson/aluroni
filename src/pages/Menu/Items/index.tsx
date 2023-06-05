@@ -1,12 +1,12 @@
-import menu from './items.json';
+import menu from 'data/menu.json';
 import Item from './Item';
 import styles from './Items.module.scss';
 import { useEffect, useState } from 'react';
 
 interface Props {
-    search: string;
-    filter: number | null;
-    sorter: string;
+  search: string;
+  filter: number | null;
+  sorter: string;
 }
 
 export default function Items({ search, filter, sorter }: Props) {
@@ -22,10 +22,7 @@ export default function Items({ search, filter, sorter }: Props) {
     return true;
   }
 
-  function orderPropAsc(
-    list: typeof menu,
-    prop: 'size' | 'serving' | 'price'
-  ) {
+  function orderPropAsc(list: typeof menu, prop: 'size' | 'serving' | 'price') {
     return list.sort((a, b) => (a[prop] > b[prop] ? 1 : -1));
   }
 
