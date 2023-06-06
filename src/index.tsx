@@ -5,11 +5,17 @@ import './index.css';
 import Menu from './pages/Menu';
 import Home from 'pages/Home';
 
+const currentComponent = window.location.pathname === '/' ? <Home/> : <Menu/>;
+
+
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Home />
+    {/*
+      <Home />
+    */}
+    {currentComponent}
   </React.StrictMode>
 );
