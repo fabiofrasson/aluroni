@@ -2,10 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css';
 import './index.css';
-import Menu from './pages/Menu';
-import Home from 'pages/Home';
-
-const currentComponent = window.location.pathname === '/' ? <Home/> : <Menu/>;
+import Router from './routes';
 
 
 const root = ReactDOM.createRoot(
@@ -13,9 +10,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    {/*
-      <Home />
-    */}
-    {currentComponent}
+    <Router />
   </React.StrictMode>
 );
