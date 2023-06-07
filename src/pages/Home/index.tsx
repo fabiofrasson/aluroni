@@ -1,6 +1,7 @@
 import menu from 'data/menu.json';
 import styles from './Home.module.scss';
 import themeStyles from 'styles/Theme.module.scss';
+import restaurant from 'assets/restaurant.png';
 
 export default function Home() {
   let recommendedDishes = [...menu];
@@ -19,6 +20,13 @@ export default function Home() {
             </button>
           </div>
         ))}
+      </div>
+      <h3 className={themeStyles.title}>Nossa casa</h3>
+      <div className={styles.restaurant}>
+        <img src={restaurant} alt="Casa do Aluroni" />
+        <div className={styles.restaurant__address}>
+            Rua Vergueiro, 3185 <br /><br />Vila Mariana - SP
+        </div>
       </div>
     </section>
   );
