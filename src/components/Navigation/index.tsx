@@ -1,5 +1,6 @@
 import { ReactComponent as Logo } from 'assets/logo.svg';
 import styles from './Navigation.module.scss';
+import {Link} from 'react-router-dom';
 
 export default function Navigation() {
   const routes = [{
@@ -18,9 +19,9 @@ export default function Navigation() {
       <ul className={styles.navigation__list}>
         {routes.map((route, index) => (
           <li key={index} className={styles.navigation__link}>
-            <a href={route.to}>
+            <Link to={route.to}>
               {route.label}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
