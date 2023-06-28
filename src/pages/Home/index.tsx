@@ -10,7 +10,7 @@ export default function Home() {
   const navigate = useNavigate();
 
   function redirectToDetails(dish: typeof menu[0]) {
-    navigate(`/prato/${dish.id}`, {state: { ...dish }, replace: true});
+    navigate(`/prato/${dish.id}`, {state: {dish }, replace: true});
   }
 
   return (
